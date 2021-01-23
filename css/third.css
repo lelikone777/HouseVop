@@ -1,0 +1,29 @@
+.third h2 {
+    font-family: PlayfairDisplay;
+    color: #D4C17F;
+    font-size: 36px;
+    line-height: 47.99px;
+    margin-bottom: 100px;
+}
+
+.third .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.third .card {
+    width: 45%;
+    position: relative;
+}
+
+.third .card p {
+    position: absolute;
+    font-family: Raleway-Regular; 
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    left: 50px;
+    bottom: 50px;
+    opacity: 5.0;
+}

@@ -1,0 +1,53 @@
+.callback1 {
+    background-image: url('../img//callback1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.callback1 h2 {
+        font-family: PlayfairDisplay;
+        color: #D4C17F;
+        font-size: 36px;
+        line-height: 47.99px;
+        margin-bottom: 100px;
+        padding-top: 180px;
+        margin-bottom: 29px;
+}
+
+.callback1 .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.callback1 .card p {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C4C4C4;
+    width: 45%;
+}
+
+.callback1 .card .inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 55%;
+}
+
+.callback1 .card .inputs input {
+    width: 255px;
+    height: 50px;
+    opacity: 0.2;
+}
+
+.callback1 .card .inputs button {
+    width: 255px;
+    height: 50px;
+    background-color: #D4C17F;
+}
+
+.callback1 .card .inputs p {
+    width: 255px;
+}
