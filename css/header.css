@@ -97,6 +97,10 @@ header {
     left: -30px;
 }
 
+.frame {
+    margin-bottom: 180px;
+}
+
 
 @media screen and ( max-width: 950px ) {
    

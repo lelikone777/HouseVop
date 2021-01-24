@@ -1,4 +1,4 @@
-.callback1 {
+.feedback {
     background-image: url('../img//callback1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -6,46 +6,43 @@
     height: 50vh;
 }
 
-.callback1 h2 {
-        font-family: PlayfairDisplay;
-        color: #D4C17F;
-        font-size: 36px;
-        line-height: 47.99px;
+.feedback-title {
         margin-bottom: 100px;
         padding-top: 180px;
         margin-bottom: 29px;
 }
 
-.callback1 .card {
+.feedback-card {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto 180px;
 }
 
-.callback1 .card p {
-    display: block;
+.feedback-text_left {
+    display: flex;
     font-size: 16px;
     line-height: 24px;
-    color: #C4C4C4;
- 
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 48%;
+    align-items: center;
 }
 
-.callback1 .card > p {
-    text-align-last: left;
-    width: 47%;
-}
-
-.callback1 .card .inputs {
+.feedback-inputs_right {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 35px;
-    width: 50%;
-    
+    width: 48%;
+    align-items: center;
 }
 
-.callback1 .card .inputs input {
+.feedback-input {
+    display: flex;
     flex-basis: 46%;
     height: 50px;
+    border-radius: 2px;
+    align-items: center;
     opacity: 0.2;
     padding: 0;
     margin: 0;
@@ -58,26 +55,29 @@
     font-size: 14px;
     line-height: 27px;
     text-align: center;
+    opacity: 1;
 }
 
-.callback1 .card .inputs button {
+#button {
+    font-family: Raleway;
     flex-basis: 46%;
     height: 50px;
+    justify-content: center;
     background-color: #D4C17F;
-    padding: 0;
-    border: none;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
     line-height: 27px;
-    font-family: Raleway;
+    opacity: 1;
 
 }
 
-.callback1 .card .inputs > p {
+.feedback-text_right {
+    display: flex;
     flex-basis: 46%;
     text-align: center;
     font-size: 13px;
-    height: 100px;
+    color: #fff;
+    opacity: 0.5;  
 }
 

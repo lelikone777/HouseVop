@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/second.css">
     <link rel="stylesheet" href="css/third.css">
-    <link rel="stylesheet" href="css/callback1.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/fourth.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
     <title>HouseVOP</title>
 </head>
 <body>
@@ -70,7 +71,7 @@
     </div>
     <div class="third">
         <div class="container">
-            <h2 class="third" >Наши квартиры</h2>
+            <h2 class="third h2-title" >Наши квартиры</h2>
             <div class="cards">
                 <div class="card">
                     <img src="img/pic1.jpg" alt="img">
@@ -91,23 +92,66 @@
             </div>
         </div>
     </div>
-    <div class="callback1">
+    <div class="feedback">
         <div class="container">
-            <h2 class="">Хотите посмотреть?</h2>
-            <div class="card">
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+            <h2 class="feedback-title h2-title">Хотите посмотреть?</h2>
+            <div class="feedback-card">
+                <p class="feedback-text_left">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
                 </p>
-                <div class="inputs">
-                    <input class="input input-name" type="text" placeholder="Ваше имя">
-                    <input class="input input-phone" type="text" placeholder="Ваш телефон">
-                    <p>*Мы никому не передаем ваши данные. 
+                <div class="feedback-inputs_right">
+                    <input class="input feedback-input input-name" type="text" placeholder="Ваше имя">
+                    <input class="input feedback-input input-phone" type="text" placeholder="Ваш телефон">
+                    <p class="feedback-input feedback-text_right" >*Мы никому не передаем ваши данные. 
                         И не сохраняем ваш номер в базу.
                     </p>
-                    <button href="#">Посмотреть район</button>
+                    <button class="feedback-input" id="button" href="#">Посмотреть район</button>
+                </div>
+            </div>
+            <div class="frame" style="width:719px; margin: 0 auto 180px">
+                <iframe width="719" height="650" src="https://www.youtube.com/embed/W50phf33-b8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="fourth">
+                <h2 class="fourth-title h2-title">Район на карте</h2>
+                <div class="map">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2245.425593588855!2d38.00852549973756!3d55.75110870968416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1611494892145!5m2!1sru!2sru" width="1110" height="358" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <h2 class="h2-title question-title">Есть вопросы?</h2>
+               
+                    <div class="feedback-inputs_bottom">
+                        <p class="feedback-input feedback-text_right" >*Мы никому не передаем ваши данные. 
+                            И не сохраняем ваш номер в базу.
+                        </p>
+                        <input class="input feedback-input input-name" type="text" placeholder="Ваше имя">
+                        <input class="input feedback-input input-phone input-phone-bottom" type="text" placeholder="Ваш телефон">
+                        <button class="feedback-input" id="button-bottom" href="#">Посмотреть район</button>
+                    </div>
+            </div>
+        </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="header-logo footer-logo">
+                        <div class="logo-top logo-bottom">
+                            <p>HouseVOP</p>
+                        </div>
+                        <div class="logo-bottom">
+                            <p>ЖИЛОЙ КОМПЛЕКС</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="">О комплексе</a></li>
+                        <li><a href="">Район</a></li>
+                        <li><a href="">Каталог квартир</a></li>
+                        <li><a href="">Ипотека</a></li>
+                        <li><a href="">Контакты</a></li>
+                        <li><a href="">О комплексе</a></li>
+                        <li><a href="">Район</a></li>
+                        <li><a href="">Каталог квартир</a></li>
+                        <li><a href="">Ипотека</a></li>
+                        <li><a href="">Контакты </a></li>
+                    </ul>
+
                 </div>
             </div>
         </div>
-
-    </div>
 </body>
 </html>

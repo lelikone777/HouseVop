@@ -1,0 +1,36 @@
+.map {
+    width:1110px;
+    margin: 0 auto 100px
+}
+
+.question-title {
+    margin-bottom: 50px;
+}
+
+.fourth-title {
+    margin-bottom: 100px;
+}
+
+.feedback-inputs_bottom {
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-inputs_bottom p,
+.feedback-inputs_bottom input,
+.feedback-inputs_bottom button {
+    flex-basis: 23%;
+}
+#button-bottom {
+    font-family: Raleway;
+    height: 50px;
+    justify-content: center;
+    background-color: #D4C17F;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    opacity: 1;
+    margin-bottom: 200px;
+}

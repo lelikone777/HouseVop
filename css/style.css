@@ -1,3 +1,10 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
 @font-face {
     font-family: Raleway-Regular; 
     src: url('../fonts/raleway-family-v3.0/Raleway-Regular.ttf'); 
@@ -17,4 +24,11 @@
 
 body {
     background-color: #242b33;
+}
+
+h2 {
+    font-family: PlayfairDisplay;
+    color: #D4C17F;
+    font-size: 36px;
+    line-height: 47.99px;
 }
