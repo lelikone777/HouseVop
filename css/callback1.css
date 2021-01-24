@@ -54,10 +54,11 @@
 
 .input::placeholder {
     font-family: Raleway;
-    color: #363131;
+    color: #e6cdcd;
     font-size: 14px;
     line-height: 27px;
     text-align: center;
+    opacity: 1;
 }
 
 .callback1 .card .inputs button {
