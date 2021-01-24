@@ -37,17 +37,17 @@
 }
 
 .callback1 .card .inputs input {
-    width: 255px;
+    flex-basis: 255px;
     height: 50px;
     opacity: 0.2;
 }
 
 .callback1 .card .inputs button {
-    width: 255px;
+    flex-basis: 255px;
     height: 50px;
     background-color: #D4C17F;
 }
 
 .callback1 .card .inputs p {
-    width: 255px;
+    flex-basis: 255px;
 }
