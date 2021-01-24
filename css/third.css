@@ -13,8 +13,12 @@
 }
 
 .third .card {
-    width: 45%;
+    width: 49%;
     position: relative;
+}
+
+.third .card img {
+    width: 100%;
 }
 
 .third .card p {
