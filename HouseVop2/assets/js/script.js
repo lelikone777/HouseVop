@@ -1,5 +1,7 @@
-document.querySelector('.header-menu-burger').addEventListener('click', function(){
-    document.querySelector('.header-menu-burger span').classList.toggle('active');
+document.getElementById("header-menu-burger").addEventListener('click', function(){
+    document.getElementById('header-menu').classList.toggle('header-menu-animate');
+    document.getElementById('header-menu-burger-span').classList.toggle('active');
+    
 })
 
 
