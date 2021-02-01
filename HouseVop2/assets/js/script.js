@@ -26,7 +26,6 @@ menuButton.addEventListener('click', event => {
       } else {
         span.classList.remove('active');
         headerMenu.classList.add('header-menu-hiding');
-        headerMenu.classList.toggle('header-menu-animate');
         // setTimeout(() => {
         //     headerMenu.classList.remove('header-menu-animate');
         //     headerMenu.classList.remove('header-menu-hiding');
