@@ -15,9 +15,9 @@ button.addEventListener('click', event => {
         button.classList.remove('active');
         menu.classList.add('close');
         setTimeout(() => {
-            menu.classList.remove('open');
-            menu.classList.remove('close');
-          }, 400)
+          menu.classList.remove('open');
+          menu.classList.remove('close');
+        }, 800)
       }
     
   });
