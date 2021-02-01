@@ -21,15 +21,11 @@ menuButton.addEventListener('click', event => {
     
    
       if (!span.classList.contains('active')) { 
-        headerMenu.classList.add('header-menu-animate');
         span.classList.add('active');
+        headerMenu.classList.add('header-menu-animate');
       } else {
         span.classList.remove('active');
         headerMenu.classList.add('header-menu-hiding');
-        // setTimeout(() => {
-        //     headerMenu.classList.remove('header-menu-animate');
-        //     headerMenu.classList.remove('header-menu-hiding');
-        //   }, 400)
       }
     
   });
