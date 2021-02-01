@@ -17,7 +17,7 @@ menuButton.addEventListener('click', event => {
         setTimeout(() => {
           headerMenu.classList.remove('header-menu-animate');
           headerMenu.classList.remove('header-menu-hiding');
-        }, 400)
+        }, 800)
       }
     
   });
