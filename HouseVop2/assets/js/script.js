@@ -4,18 +4,6 @@ const headerMenu = document.querySelector('.header-menu');
 const span = document.querySelector('.header-menu-burger-span');
 
 
-
-
-// document.getElementById("header-menu-burger").addEventListener('click', function(){
-//     headerMenu.classList.toggle('header-menu-animate');
-//     span.classList.toggle('active');
-    
-    
-// })
-
-
-
-
 menuButton.addEventListener('click', event => {
     const target = event.target;
     
@@ -26,6 +14,10 @@ menuButton.addEventListener('click', event => {
       } else {
         span.classList.remove('active');
         headerMenu.classList.add('header-menu-hiding');
+        setTimeout(() => {
+          headerMenu.classList.remove('header-menu-animate');
+          headerMenu.classList.remove('header-menu-hiding');
+        }, 400)
       }
     
   });
