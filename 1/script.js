@@ -13,8 +13,11 @@ button.addEventListener('click', event => {
         menu.classList.add('open');
       } else {
         button.classList.remove('active');
-        menu.classList.remove('open');
         menu.classList.add('close');
+        setTimeout(() => {
+            menu.classList.remove('open');
+            menu.classList.remove('close');
+          }, 400)
       }
     
   });
