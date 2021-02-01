@@ -1,10 +1,39 @@
-document.getElementById("header-menu-burger").addEventListener('click', function(){
-    document.getElementById('header-menu').classList.toggle('header-menu-animate');
-    document.getElementById('header-menu-burger-span').classList.toggle('active');
+
+const menuButton = document.querySelector('.header-menu-burger');
+const headerMenu = document.querySelector('.header-menu');
+const span = document.querySelector('.header-menu-burger-span');
+
+
+
+
+// document.getElementById("header-menu-burger").addEventListener('click', function(){
+//     headerMenu.classList.toggle('header-menu-animate');
+//     span.classList.toggle('active');
     
-})
+    
+// })
 
 
+
+
+menuButton.addEventListener('click', event => {
+    const target = event.target;
+    
+   
+      if (!span.classList.contains('active')) { 
+        headerMenu.classList.add('header-menu-animate');
+        span.classList.add('active');
+      } else {
+        span.classList.remove('active');
+        headerMenu.classList.add('header-menu-hiding');
+        headerMenu.classList.toggle('header-menu-animate');
+        // setTimeout(() => {
+        //     headerMenu.classList.remove('header-menu-animate');
+        //     headerMenu.classList.remove('header-menu-hiding');
+        //   }, 400)
+      }
+    
+  });
 
 
 
