@@ -2,6 +2,7 @@
     height: 840px
     background-image: url('../img/header-bg.jpg')
     background-position: center
+    width: 100%
     background-size: cover
     margin-bottom: 100px
     &-top
@@ -34,10 +35,10 @@
         &-burger
             display: none
     &-middle
-        width: 572px
+        width: 80%
         margin: 0 auto
         &-title
-            font-family: PlayfairDisplay
+            font-family: 'Playfair Display', serif
             font-size: 48px
             line-height: 64px
             text-align: center
@@ -48,10 +49,10 @@
             margin: 0 auto
             margin-bottom: 200px
     &-bottom
-        width: 572px
+        width: 70%
         margin: 0 auto
         display: flex
-        justify-content: space-between
+        justify-content: space-around
         >a
             font-family: Raleway-Regular
             display: inline-block
@@ -114,13 +115,12 @@
     .header-menu
         display: none
         flex-direction: column
-        height: 250px
         border-radius: 10px
         background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%)
         position: absolute
         right: 120px
         top: 30px 
-        padding: 10px 0 10px
+        padding: 20px
         &-item
             padding: 15px 10px 15px
             margin: 0
@@ -133,8 +133,6 @@
             animation-duration: 2s
 
 
-
-
 @media ( max-width: 700px )
     .header-middle
         &-title
@@ -142,8 +140,12 @@
         &-mouseimg
             margin-bottom: 170px
     .header-bottom
+        width: 257px
         flex-direction: column
         align-items: center
+        &-address
+            margin-bottom: 20px
+
         
           
         
