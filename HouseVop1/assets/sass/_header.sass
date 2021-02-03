@@ -1,5 +1,4 @@
 .header
-    height: 840px
     background-image: url('../img/header-bg.jpg')
     background-position: center
     width: 100%
@@ -17,7 +16,7 @@
             line-height: 54px
             color: #FFFFFF
         &-bottom
-            font-family: Roboto-Regular;
+            font-family: Roboto-Regular
             font-size: 12px
             line-height: 14px
             letter-spacing: 0.12em
@@ -31,7 +30,7 @@
             margin-left: 40px
         &-link
             color: #fff
-            opacity: 0.7 
+            opacity: 0.7
         &-burger
             display: none
     &-middle
@@ -70,9 +69,6 @@
             background-image: url('../../assets/img/phone.svg')
             width: 169px
 
-
-
-
 @media ( max-width: 880px )
     .header-menu-burger
         display: block
@@ -87,7 +83,7 @@
             width: 100%
             position: absolute
             height: 10px
-            background:#acaaaa
+            background: #acaaaa
             transition: .3s
             border-radius: 5px
         span
@@ -95,12 +91,12 @@
         span:before
             content: ""
             top: -20px
-            transition:  top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+            transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
         span:after
             content: ""
             bottom: -20px
             transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
-        span.active 
+        span.active
             background: rgba(255, 255, 255, 0)
         span.active:before
             content: ""
@@ -119,7 +115,7 @@
         background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%)
         position: absolute
         right: 120px
-        top: 30px 
+        top: 30px
         padding: 20px
         &-item
             padding: 15px 10px 15px
@@ -131,7 +127,6 @@
         &-hiding
             animation: backOutRight
             animation-duration: 2s
-
 
 @media ( max-width: 700px )
     .header-middle
@@ -145,13 +140,3 @@
         align-items: center
         &-address
             margin-bottom: 20px
-
-        
-          
-        
-        
-
-
-
- 
- 
