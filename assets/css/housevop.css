@@ -225,6 +225,9 @@ body {
 }
 
 @media (max-width: 700px) {
+  .header-top {
+    margin-bottom: 130px;
+  }
   .header-middle-title {
     font-size: 28px;
   }
