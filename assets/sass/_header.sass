@@ -1,0 +1,145 @@
+.header
+    background-image: url('../img/header-bg.jpg')
+    background-position: center
+    width: 100%
+    background-size: cover
+    margin-bottom: 100px
+    &-top
+        display: flex
+        justify-content: space-between
+        padding-top: 30px
+        margin-bottom: 215px
+    &-logo
+        &-top
+            font-family: PostNoBillsJaffna-SemiBold
+            font-size: 36px
+            line-height: 54px
+            color: #FFFFFF
+        &-bottom
+            font-family: Roboto-Regular
+            font-size: 12px
+            line-height: 14px
+            letter-spacing: 0.12em
+            color: #FFFFFF
+            opacity: 0.7
+    &-menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &-item
+            margin-left: 40px
+        &-link
+            color: #fff
+            opacity: 0.7
+        &-burger
+            display: none
+    &-middle
+        width: 80%
+        margin: 0 auto
+        &-title
+            font-family: 'Playfair Display', serif
+            font-size: 48px
+            line-height: 64px
+            text-align: center
+            color: #D4C17F
+            margin-bottom: 80px
+        &-mouseimg
+            display: block
+            margin: 0 auto
+            margin-bottom: 200px
+    &-bottom
+        width: 70%
+        margin: 0 auto
+        display: flex
+        justify-content: space-around
+        >a
+            font-family: Raleway-Regular
+            display: inline-block
+            text-align: right
+            background-repeat: no-repeat
+            font-size: 18px
+            line-height: 21px
+            color: #FFFFFF
+            opacity: 0.7
+        &-address
+            background-image: url('../../assets/img/placeholder.svg')
+            width: 256px
+
+        &-phone
+            background-image: url('../../assets/img/phone.svg')
+            width: 169px
+
+@media ( max-width: 880px )
+    .header-menu-burger
+        display: block
+        position: absolute
+        right: 50px
+        top: 40px
+        width: 50px
+        height: 50px
+        cursor: pointer
+        span, span:before, span:after
+            display: block
+            width: 100%
+            position: absolute
+            height: 10px
+            background: #acaaaa
+            transition: .3s
+            border-radius: 5px
+        span
+            top: 20px
+        span:before
+            content: ""
+            top: -20px
+            transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+        span:after
+            content: ""
+            bottom: -20px
+            transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+        span.active
+            background: rgba(255, 255, 255, 0)
+        span.active:before
+            content: ""
+            top: 0px
+            transform: rotate(45deg)
+            transition: top 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55)
+        span.active:after
+            content: ""
+            bottom: 0px
+            transform: rotate(-45deg)
+            transition: bottom 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    .header-menu
+        display: none
+        flex-direction: column
+        border-radius: 10px
+        background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%)
+        position: absolute
+        right: 120px
+        top: 30px
+        padding: 20px
+        &-item
+            padding: 15px 10px 15px
+            margin: 0
+        &-animate
+            display: flex
+            animation: backInRight
+            animation-duration: 2s
+        &-hiding
+            animation: backOutRight
+            animation-duration: 2s
+
+@media ( max-width: 700px )
+    .header
+        &-top
+            margin-bottom: 130px
+        &-middle        
+            &-title
+                font-size: 28px
+            &-mouseimg
+                margin-bottom: 170px
+    .header-bottom
+        width: 257px
+        flex-direction: column
+        align-items: center
+        &-address
+            margin-bottom: 20px
