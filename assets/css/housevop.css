@@ -32,6 +32,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #242b33;
+  color: #fff;
 }
 
 .container {
@@ -346,4 +347,46 @@ body {
   .cards-2 .card-2 {
     margin-bottom: 50px;
   }
+}
+
+.wannawatch {
+  height: 560px;
+  background-image: url("../img/wannawatch-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.wannawatch-container {
+  padding-top: 180px;
+}
+
+.wannawatch-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wannawatch-title {
+  margin-bottom: 30px;
+}
+
+.wannawatch-left {
+  width: 50%;
+}
+
+.wannawatch-left-text {
+  display: block;
+  width: 535px;
+  height: 114px;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: .8;
+}
+
+.wannawatch-right {
+  width: 50%;
+}
+
+.wannawatch-right-name {
+  padding: 12px 93px;
 }
