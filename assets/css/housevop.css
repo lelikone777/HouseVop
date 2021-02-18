@@ -441,3 +441,19 @@ body {
   border: none;
   height: 50px;
 }
+
+@media (max-width: 800px) {
+  .wannawatch-wrapper {
+    flex-direction: column;
+  }
+  .wannawatch-title {
+    margin: 0 auto;
+  }
+  .wannawatch-left {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .wannawatch-right {
+    width: 100%;
+  }
+}
