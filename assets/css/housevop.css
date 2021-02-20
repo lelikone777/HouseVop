@@ -35,6 +35,14 @@ body {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -274,7 +282,60 @@ body {
 }
 
 .footer {
-  color: #000;
+  background-color: #2D343C;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 0 50px;
+}
+
+.footer-menus {
+  width: 410px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  padding-top: 20px;
+}
+
+.footer-menu-item {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  opacity: .7;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+
+.footer-info {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-address, .footer-phone, .footer-time, .footer-email {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  opacity: .7;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+
+.footer-email {
+  margin-bottom: 20px;
+}
+
+.footer-socials {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 165px;
 }
 
 .cards {
@@ -368,9 +429,12 @@ body {
   left: 30%;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   .cards-2 {
     flex-direction: column;
+  }
+  .cards-2-title {
+    text-align: center;
   }
   .cards-2 .card-2 {
     margin-bottom: 50px;
@@ -443,7 +507,7 @@ body {
   width: 48%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .wannawatch-wrapper {
     flex-direction: column;
   }
@@ -469,12 +533,24 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 900px) {
+  .frame {
+    margin-bottom: 80px;
+  }
+}
+
 .district {
   margin-bottom: 180px;
 }
 
 .district-title {
   margin-bottom: 100px;
+}
+
+@media (max-width: 900px) {
+  .district-title {
+    text-align: center;
+  }
 }
 
 .questions {

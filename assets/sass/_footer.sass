@@ -1,2 +1,40 @@
-.footer 
-    color: #000
+.footer
+    background-color: #2D343C
+    &-container
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        padding: 60px 0 50px
+    &-menus
+        width: 410px
+        display: flex
+        justify-content: space-between
+    &-menu
+        padding-top: 20px
+        &-item
+            padding-top: 7px
+            padding-bottom: 7px
+            opacity: .7
+            font-size: 14px
+            line-height: 16px
+            letter-spacing: 0.05em;
+    &-info
+        padding-top: 20px
+        display: flex
+        flex-direction: column
+    &-address, &-phone, &-time, &-email
+        padding-top: 7px
+        padding-bottom: 7px
+        opacity: .7
+        font-size: 14px
+        line-height: 16px
+        letter-spacing: 0.05em
+    &-email
+        margin-bottom: 20px
+    &-socials
+        color: #fff
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 165px
+
