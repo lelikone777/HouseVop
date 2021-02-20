@@ -1,0 +1,28 @@
+.questions
+  margin-bottom: 180px
+  &-container
+  &-wrapper
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &-title
+    margin-bottom: 50px
+  &-text, &-name, &-phone, &-button
+    width: 23%
+
+@media ( max-width: 900px )
+  .questions
+    &-container
+    &-wrapper
+      display: flex
+      flex-direction: column
+      align-items: center
+    &-title
+      text-align: center
+      margin-bottom: 50px
+    &-text, &-name, &-phone, &-button
+      width: 80%
+      margin-bottom: 20px
+      
+
+  
