@@ -361,7 +361,6 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
@@ -372,7 +371,6 @@ body {
 
 .wannawatch-title {
   margin-bottom: 30px;
-  justify-self: start;
   align-self: start;
 }
 
@@ -440,4 +438,33 @@ body {
   background: #D4C17F;
   border: none;
   height: 50px;
+}
+
+center {
+  margin-bottom: 180px;
+  min-height: 500px;
+}
+
+@media screen and (max-width: 1070px) {
+  .wannawatch-title {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .wannawatch-wrapper {
+    flex-direction: column;
+  }
+  .wannawatch-left {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .wannawatch-right {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
