@@ -447,7 +447,7 @@ body {
     flex-direction: column;
   }
   .wannawatch-title {
-    margin: 0 auto;
+    margin: 0 auto 30px;
   }
   .wannawatch-left {
     width: 100%;
