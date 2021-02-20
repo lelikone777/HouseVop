@@ -8,12 +8,14 @@
     height: 100%
     display: flex
     flex-direction: column
+    align-items: center
     justify-content: center
   &-wrapper
     display: flex
     justify-content: space-between
   &-title
     margin-bottom: 30px
+    justify-self: start
     align-self: start
   &-left
     width: 49%
@@ -64,32 +66,16 @@
       border: none
       height: 50px
 
-center
-  margin-bottom: 180px
-  min-height: 500px
-
-
-
-
-
-@media screen and ( max-width: 1070px )
+@media ( max-width: 800px )
   .wannawatch
-    &-title
-      width: 70%
-      display: flex
-      margin: 0 auto
-      justify-content: center
-      margin-bottom: 20px
     &-wrapper
       flex-direction: column
+    &-title
+      margin: 0 auto 30px
     &-left
-      width: 70%  
-      margin: 0 auto
-      text-align: center
-      margin-bottom: 25px
+      width: 100%
+      margin-bottom: 50px
     &-right
-      width: 70%  
-      margin: 0 auto
-      text-align: center
+      width: 100%
 
   
